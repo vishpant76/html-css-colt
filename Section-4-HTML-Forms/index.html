@@ -1,0 +1,45 @@
+<!-- FORMS EXERCISE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Exercise</title>
+  </head>
+  <body>
+    <h1>Your Course Landing Page</h1>
+    <form action="/dummy">
+      <div>
+        <label for="title">Course Title</label>
+        <input type="text" id="title" required />
+      </div>
+      <div>
+        <div>
+          <label for="description">Course Description</label>
+        </div>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <div>
+        <label for="level">Skill Level</label>
+        <select name="level" id="level">
+          <option value="">Beginner level</option>
+          <option value="">Intermediate level</option>
+          <option value="">Expert level</option>
+          <option value="">All levels</option>
+        </select>
+      </div>
+      <div>
+        <label for="check-box">Ready to publish the course?</label>
+        <input type="checkbox" id="check-box" />
+      </div>
+      <!-- <label for="submit-btn">Submit</label>  -->
+      <!-- <input type="submit" id="submit-btn" /> -->
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
